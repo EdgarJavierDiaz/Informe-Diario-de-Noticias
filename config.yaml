@@ -1,0 +1,19 @@
+# Palabras clave por categoría
+keywords:
+  bloqueos: ["bloqueo", "vía cerrada", "cierre vial", "peaje bloqueado", "taponamiento", "manifestantes bloquean"]
+  paros: ["paro", "cese de actividades", "marcha de transportadores", "amenaza de paro", "protesta transportadores"]
+  petrolera: ["oleoducto", "ataque a oleoducto", "ataque a infraestructura", "sabotaje", "ataque petrolero", "ecopetrol"]
+  otros: ["enfrentamiento", "hostigamiento", "explosión", "granada", "disidencias", "ELN", "GAO", "orden público"]
+
+# RSS de ejemplo (reemplace con medios locales/nacionales de confianza)
+rss_sources:
+  - "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"   # placeholder de ejemplo; reemplace por medios CO
+  - "https://www.eltiempo.com/rss/colombia.xml"                # si el feed público está disponible
+  - "https://www.bluradio.com/rss"                             # ejemplo
+  - "https://www.rcnradio.com/feed"                            # ejemplo
+
+# Ajustes
+region_focus: ["Colombia", "Meta", "Casanare", "Arauca", "Santander", "Boyacá", "Antioquia", "Nariño", "Putumayo", "Catatumbo"]
+min_confirmed_sources: 2   # cuántas fuentes distintas para marcar CONFIRMADO
+company_name: "SMA Seguridad"
+primary_color: "#003366"   # azul corporativo

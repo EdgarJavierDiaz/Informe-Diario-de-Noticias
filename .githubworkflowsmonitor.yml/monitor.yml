@@ -1,0 +1,30 @@
+name: Monitor Noticias
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install gspread google-auth pandas feedparser
+
+      - name: Crear archivo JSON de credenciales
+        run: |
+          echo "${{ secrets.GOOGLE_JSON }}" > reporte-seguridad.json
+
+      - name: Ejecutar monitor
+        run: |
+          python monitor_seguridad.py

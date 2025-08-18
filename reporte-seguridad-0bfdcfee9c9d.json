@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reporte-seguridad",
+  "private_key_id": "0bfdcfee9c9db88b5ae9d16da316f1adabdebd55",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDeoaP6340qsNWo\nrQeuJl6ghLpyatoFgd6D6Uo9dsRmIM4isjD2lOGK92EDZaItvPvy0tmj6Yd03oxJ\nsHKUAlyXItYhG+6dZGjgkmMOC7COJOCU6vFcXCRDrWOJFY/2xlPQvl76l/bXJIr7\nAKjRH33/JZTlBHxjZXEsjGoffmHRaTGLxodLdWwlpj+32WnebHCvpKMgMgYQBUbp\n68a+l67fPUYVJcZPtZs9DK4GXYfnJEeW3/X07H1H51NK9+iBpuDCbXBvLIdhtAV8\nIBRQuVeg3oGNMe4TuSyPGPYM2XxmQo5JbBb/himZrKZUHx+m7dZv6Om2fohNeN0c\nkKPMDBoJAgMBAAECggEAOHZMLTr3BWW1ukKv2PX4N8ORuaTpyE3IjjHjVzVA2Bnn\nzZrdmhvmG6VjoEXtXKY6S7o34j8+0GAEukeat3jl3JrELb90w8wMYTAfGRfT3ijy\nIDJ5pg/kTpmxzbl/OnnQFffCBNH3k1a8PK5NIkRXYxc37OE3XsoCaubtnzEhQ8dt\n330ZsmyRDHigHIVdo4Oo/Yo11w7ZBYCZkJh+YO3DvwHBPEYFa5Bn82QkzmAf2gcO\n1yT3GHay76kv8BqD0okrZxhbmawSU/+gLNFfDdY6O2u3uNtpUn4AGlVP64hVyIqe\nlhgMWFygh4wth5Z3JjNLS5DNnOMCZ5OvhpvEAfbXhQKBgQDz21RQXt4cxz+TRdfx\ndUt5ag7zG1edxWSpMePPxQW7KrvRziSgnsqfnbLV8273bBGTdi+FvjH6P4BfMS9c\ncaXvfR8oGTiqesp5Mx867126ZUho/o+F3XBuO3e716ohbBUTF+fHhmI/Z/Hj+97W\nsr6nYbanTq6VxJ5pyiBAGxckHwKBgQDpt7tXYkpmSWHQHVUeBFj510Vj2dbwz61t\n//Vf60JfsYZ8q87VPIK/jpeG3ZRpax4mRTIHXUiPaSBHbBIESpQQs9ngnequ5QDN\nedHjyfsOhXiw4EeIBOJi/IoS7z1Z4rbCU0DXj40JWagTOa2FfVl4ett7C0//L6hk\nSPJf4Cq81wKBgA+innNQwdkChXcB4Wif5qjwPekkdaeuAlg+1KZ7sXRgtw4qs3qA\n8+jsCY1iQFko2q+jwkRG/5lV/PsdgjXhK4yBbz/47gMwQE8pEfWLZ20OFWh1+enR\nWuYWdgTbPRNLhMZmn/vRB/ecyIufmJgXedXtk/KCPvtnUejihtLVadRtAoGAIaLn\nu3PR8VauVR1jmqZVh9+LhQtc+9tnwmUME3nwW4VZLagsZFQJHTiQZkCNk35vIGLl\nCFpMjxc6Jg1Pqn5xQNYhjUos9G7Q5sGZi4cOMtDSxeIBaXoKeuSNmpwD4GPYma8R\nrfRi/+1/WwT6DDQ2JDjKTbMbGEbrnUNCXroMbJECgYB2PdW4HYn4Ss4d/X/9phSB\nP9MJxdnq546lUFLzxlhKpD39alUq9s6G9LtkHaLG+Rq0cpoXwxc3otQbyH85wnrI\nr3LU1cohU02YF94CKHZZCkliMd6XQJc158dXfHpTOANnTq4fCY/d7vMJCvs73u+k\nIGeqdw8Uuei685nXjYyJhw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "reporte-seguridad@reporte-seguridad.iam.gserviceaccount.com",
+  "client_id": "112614974827742868338",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/reporte-seguridad%40reporte-seguridad.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
