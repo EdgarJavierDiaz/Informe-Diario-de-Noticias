@@ -24,3 +24,6 @@ jobs:
       # Decodifica el secret Base64 para crear el archivo JSON
       - name: Create service account file
         run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > reporte-seguridad.json
+
+      - name: Run monitor script
+        run: python monitor_seguridad.py
