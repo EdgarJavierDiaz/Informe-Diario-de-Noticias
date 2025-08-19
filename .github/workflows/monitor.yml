@@ -20,10 +20,10 @@ jobs:
         run: |
           pip install gspread google-auth pandas feedparser
 
-      # --- ESTE ES EL PASO QUE FALTABA ---
-      # Crea el archivo JSON a partir del secret de GitHub
-      - name: Create service account file
-        run: echo "${{ secrets.GOOGLE_CREDENTIALS }}" > reporte-seguridad.json
+      # --- PASO CORREGIDO ---
+      # Decodifica el secret Base64 para crear el archivo JSON
+      - name: Create service account file from Base64
+        run: echo "${{ secrets.GOOGLE_CREDENTIALS }}" | base64 --decode > reporte-seguridad.json
 
       - name: Run monitor script
         run: python monitor_seguridad.py
