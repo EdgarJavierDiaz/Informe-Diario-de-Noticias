@@ -36,7 +36,7 @@ if sheet.row_count == 0 or not sheet.get_all_values():
     sheet.append_row(headers)
 
 # ---------------- LEER MUNICIPIOS ----------------
-df_municipios = pd.read_csv(MUNICIPIOS_FILE)
+df_municipios = pd.read_csv(MUNICIPIOS_FILE, encoding='latin1')
 municipios_list = df_municipios["MUNICIPIO"].tolist()
 
 # ---------------- DATOS EXISTENTES ----------------
