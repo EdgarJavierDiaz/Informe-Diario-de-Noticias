@@ -1,30 +1,73 @@
-# Sistema de Reporte Diario de Orden Público (Colombia)
-Genera automáticamente un **resumen corporativo** con énfasis en: paros/bloqueos, ataques a infraestructura petrolera y otros incidentes. Produce:
-- Mensaje **WhatsApp** (texto con íconos) listo para copiar/reenviar.
-- Correo **Outlook** en HTML corporativo (con logo y colores).
-- CSV base con eventos para histórico/Power BI.
-- (Opcional) Envío por Outlook con `win32com.client` en Windows.
+# 📰 Sistema de Monitoreo de Noticias de Orden Público - SMA
 
-## Requisitos
-- Python 3.10+
-- `pip install -r requirements.txt`
+<img width="362" height="120" alt="logo_empresa" src="https://github.com/user-attachments/assets/0fe3b8d3-3516-4251-9357-3d3b62a3c3e6" />
 
-## Cómo ejecutar (local)
-1. Active su venv (opcional) e instale dependencias.
-2. Edite `config.yaml` (palabras clave, fuentes RSS).
-3. Ejecute:
-   ```bash
-   streamlit run app.py
-   ```
-4. El panel mostrará:
-   - Eventos detectados
-   - Nivel de alerta
-   - Botones para **generar WhatsApp** y **generar HTML Outlook**
-   - Botón (opcional) para **enviar por Outlook** si está en Windows
 
-## Fuentes
-Por defecto se muestran fuentes de ejemplo. Cambie/añada RSS de medios colombianos confiables en `config.yaml`.
+**Mantente siempre informado sobre eventos críticos de seguridad a nivel nacional en Colombia.**  
 
-## Notas
-- El clasificador es **ligero** (reglas + conteo de fuentes). Para producción, considere un modelo de ML o verificación adicional.
-- El envío por WhatsApp está pensado **para que usted reciba primero** el mensaje y reenvíe manualmente.
+---
+
+## 🌟 Características destacadas
+
+- 🔔 **Alertas inmediatas:** Detecta bloqueos, paros y ataques armados.  
+- 🗺️ **Mapas interactivos:** Ubicación de eventos por departamento y municipio.  
+- 📊 **Reportes diarios:** Nivel de alerta: **Bajo**, **Medio**, **Alto**.  
+- 🖼️ **Visualización multimedia:** Incluye imágenes y URLs de fuentes confiables.  
+- 🔄 **Sensado automático:** Actualización de noticias cada 6 horas.  
+
+---
+
+## 🛠️ Requisitos del sistema
+
+- Python ≥ 3.11  
+- Librerías Python: `pandas`, `openpyxl`, `requests`, `beautifulsoup4`, `streamlit`  
+- Acceso a Google Drive para almacenamiento de reportes  
+- WhatsApp en dispositivo móvil (para envío de alertas)
+
+Instalación rápida:
+
+```bash
+pip install pandas openpyxl requests beautifulsoup4 streamlit
+📂 Estructura del proyecto
+
+.
+├── app_simple.py              # Script principal
+├── municipios_departamentos.csv
+├── red_vial_invias_2025.xlsx
+├── logo_empresa.png
+├── Decalogo.png
+├── requirements.txt
+└── .github/workflows          # Automatización y CI/CD
+Revisa el reporte generado, que incluye:
+
+| 📅 FECHA | 📰 FUENTES | ⚡ ACCION | 📝 DESCRIPCIÓN | 📍 UBICACIÓN | 🗂️ DEPARTAMENTO | 🌎 PAÍS | 🏘️ MUNICIPIO | 🔗 URL/Img |
+
+Copia el mensaje preparado para WhatsApp y envíalo al equipo de seguridad.
+
+🔄 Flujo de trabajo
+
+Sensado periódico de noticias.
+
+Filtrado de eventos críticos según criterios de seguridad.
+
+Generación de reporte Excel y mensaje corporativo listo para envío.
+
+Alerta inmediata ante eventos graves: bloqueos, paros o ataques armados.
+
+💡 Mejoras futuras
+
+Integración con WhatsApp API para alertas automáticas.
+
+Dashboard interactivo en Power BI con mapas y estadísticas en tiempo real.
+
+Sistema predictivo de eventos basado en historial y presencia de grupos armados.
+
+📞 Contacto
+
+SMA - Salgado Melendez y Asociados Ingenieros Consultores SA
+📧 edgar.diaz@smaingenieros.com.co
+
+📞 +57 3134028054
+
+
+
